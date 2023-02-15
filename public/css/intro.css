@@ -1,0 +1,72 @@
+body::after{
+    content: "";
+    background-image: url(http://asbhycepe.srv/img/peakpx.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+
+#main{
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.content-block{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.block-profile-pic{
+    border-right: solid 5px #2FA4FF;
+}
+
+.block-intro{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 50px;
+}
+
+.block-intro p{
+    color: #2FA4FF;
+    font-size: 60px;
+}
+
+.block-intro h3{
+    color: #FFFF;
+}
+
+.content-nav{
+   display: flex;
+   justify-content: center;
+}
+
+.nav-item{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #FFFF;
+    font-size: larger;
+}
+
+.nav-item:hover{
+    border-bottom: solid 5px #2FA4FF ;
+    background-color: #273053;
+    transition: 0.3s;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    clip-path: circle();
+}

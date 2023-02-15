@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header a{
+    margin-left: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    background-color: #2FA4FF;
+    color: black;
+    border-radius: 5px;
+}
+
+#header-wrapper h2{
+    color: #2FA4FF;
+}
+
+#main{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.block{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.block-title{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2FA4FF;
+}
+
+.block-title h2{
+    color: #FFFF;
+}
+
+.block-content{
+    margin-top: 15px;
+}
+
+.block-content p{
+    color: #FFFF;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.block:nth-child(2) .block-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.badge-holder img{
+    width: 200px;
+    height: 200px;
+}
+
+.cert-holder img{
+    width: 200px;
+    height: 140px;
+}
+
+.description{
+    color: #FFFF;
+    margin-top: 10px;
+}
+
+.description a{
+    display: block;
+    text-align: center;
+}
+
+.description a:hover{
+    color: #2FA4FF;
+}
